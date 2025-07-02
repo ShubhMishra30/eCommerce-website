@@ -37,6 +37,12 @@ h1 {
     font-size: 85px;
     margin-bottom: 48px 0px 0px;
 }
+
+span.fa-stack{
+    font-size: 35px;
+}
+
+
 .fas.fa-briefcase {
   color: #FF3EBF;
 }
@@ -69,15 +75,47 @@ h1 {
 
 nav a {
     padding: 8px;
-    margin: 15px 10px;
+    margin: 15px 5px;
     color: lightgray;
     text-decoration: none;
     font-size: 20px;
     display: inline-block;
 }
 
+nav a:hover {
+    color: white;
+}
+
+select#language {
+    margin: 15px 0px;
+    padding: 7px;
+    font-size: 14px;
+    color: black;
+    background-color: lightgray;
+    border: none;
+    border-radius: 8px;
+}
+
+select#language:hover {
+    background-color: white;
+    color: black;
+}
+
+label {
+    width: 5vw;
+    height: 10vh;
+    padding: 10px 5px;
+    color: lightgrey;
+    font-size: 12px;
+    margin: 5px 0px 5px 0px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    text-align: left;
+}
+
 img{
-    margin: 15px 160px;
+    margin: 15px 80px 15px 160px;
     width: 100px;
     height: 40px;
     display: inline-block;
